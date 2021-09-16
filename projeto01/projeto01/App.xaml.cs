@@ -10,7 +10,7 @@ namespace projeto01
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new pagina02();
         }
 
         protected override void OnStart()
