@@ -71,11 +71,17 @@ namespace projeto01
                 Margin = new Thickness(20),
                  
             };
-
+            bt1.Clicked += Bt1_Clicked;
             stk.Children.Add(bt1);
 
             stk.Children.Add(img);
             Content = stk;
+        }
+
+        private void Bt1_Clicked(object sender, EventArgs e)
+        {
+            DisplayAlert("Avisos", "Os cursos do Senac terao inicio\n" +
+                "na proxima semana. Não perca!", "OK");
         }
     }
 }
