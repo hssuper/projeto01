@@ -10,16 +10,16 @@ using Xamarin.Forms.Xaml;
 namespace projeto01
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class pagina02 : ContentView
+    public partial class Pagina02 : ContentPage
     {
-        public pagina02()
+        public Pagina02()
         {
             InitializeComponent();
+
             StackLayout stk = new StackLayout()
             {
                 Orientation = StackOrientation.Vertical
             };
-
         }
     }
 }
