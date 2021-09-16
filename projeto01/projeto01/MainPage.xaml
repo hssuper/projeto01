@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="projeto01.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="Black" Padding="18" CornerRadius="0">
+        <Label Text="Meu Primeiro Projeto Xamarin"  HorizontalTextAlignment="Center"
+           TextColor="White" FontSize="24"/>
+        </Frame>
+        <Label Text="App Xamarim" FontSize="Title" BackgroundColor="#808080" Padding="20" HorizontalTextAlignment="Center"/>
+        <Label Text="TEXTO 2"/>
+        <Image Source="img/img2.png" />
+        <Button Text="Enviar" Padding="20" HorizontalOptions="Center" BackgroundColor="DarkGreen"
+             TextColor="White" FontSize="20"  FontAttributes="Bold" Clicked="btEnviar"/>
+        
+    </StackLayout>
+
+</ContentPage>
